@@ -1,0 +1,116 @@
+{
+  "test": [
+    {
+      "role": "user",
+      "content": "My name is Alex"
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, Alex! How are you today?"
+    },
+    {
+      "role": "user",
+      "content": "What is my name"
+    },
+    {
+      "role": "assistant",
+      "content": "I remember! Your name is Alex!"
+    },
+    {
+      "role": "user",
+      "content": "Do you remember my name?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I do! You told me your name was Alex earlier."
+    }
+  ],
+  "test-chat-llm": [
+    {
+      "role": "user",
+      "content": "tell me a 3-word sentence"
+    },
+    {
+      "role": "assistant",
+      "content": "\"I am happy\""
+    },
+    {
+      "role": "user",
+      "content": "tell me a 3-word sentence"
+    },
+    {
+      "role": "assistant",
+      "content": "\"Dog is big\""
+    },
+    {
+      "role": "user",
+      "content": "tell me a 3-word sentence"
+    },
+    {
+      "role": "assistant",
+      "content": "\"She is mine\""
+    }
+  ],
+  "test-chat-search": [
+    {
+      "role": "user",
+      "content": "search python tutorials on Google"
+    },
+    {
+      "role": "assistant",
+      "content": "\ud83d\udd0d Search results for _\"search python tutorials on Google\"_:\n\n- **Google's Python Class | Python Education | Google for Developers** \u2014 Welcome toGoogle'sPythonClass -- this is a free class for people with a little bit of programming experience who want to\n  https://developers.google.com/edu/python/\n- **Python Introduction | Python Education | Google for Developers** \u2014 Prelude Welcome toGoogle'sPythononlinetutorial. It is based on the introductoryPythoncourse offered internally. As menti\n  https://developers.google.com/edu/python/introduction\n- **Crash Course on Python | Google Skills** \u2014 LearnPythonprogramming foundations, and apply basicPythonsyntax, use code editors, and write simple programs. Gain hands\n  https://www.skills.google/paths/2472/course_templates/1348\n- **Python Tutorial - W3Schools** \u2014 Pythonis a popular programming language.Pythoncan be used on a server to create web applications.Pythonis easy to learn \n  https://www.w3schools.com/python/\n- **Learn Python Free - Complete Beginner Course | OpenPython** \u2014 LearnPythonfrom scratch with 70 free interactive lessons. Write and run realPythoncode in your browser. No setup needed \n  https://openpython.org/courses/learnpython"
+    },
+    {
+      "role": "user",
+      "content": "search python tutorials on Google"
+    },
+    {
+      "role": "assistant",
+      "content": "\ud83d\udd0d Search results for _\"search python tutorials on Google\"_:\n\n- **Google's Python Class | Python Education | Google for Developers** \u2014 Welcome toGoogle'sPythonClass -- this is a free class for people with a little bit of programming experience who want to\n  https://developers.google.com/edu/python/\n- **Python Introduction | Python Education | Google for Developers** \u2014 Prelude Welcome toGoogle'sPythononlinetutorial. It is based on the introductoryPythoncourse offered internally. As menti\n  https://developers.google.com/edu/python/introduction\n- **Crash Course on Python | Google Skills** \u2014 LearnPythonprogramming foundations, and apply basicPythonsyntax, use code editors, and write simple programs. Gain hands\n  https://www.skills.google/paths/2472/course_templates/1348\n- **Python Tutorial - W3Schools** \u2014 Pythonis a popular programming language.Pythoncan be used on a server to create web applications.Pythonis easy to learn \n  https://www.w3schools.com/python/\n- **Learn Python Free - Complete Beginner Course | OpenPython** \u2014 LearnPythonfrom scratch with 70 free interactive lessons. Write and run realPythoncode in your browser. No setup needed \n  https://openpython.org/courses/learnpython"
+    },
+    {
+      "role": "user",
+      "content": "search python tutorials on Google"
+    },
+    {
+      "role": "assistant",
+      "content": "\ud83d\udd0d Search results for _\"search python tutorials on Google\"_:\n\n- **Google's Python Class | Python Education | Google for Developers** \u2014 Welcome toGoogle'sPythonClass -- this is a free class for people with a little bit of programming experience who want to\n  https://developers.google.com/edu/python/\n- **Crash Course on Python | Google Skills** \u2014 LearnPythonprogramming foundations, and apply basicPythonsyntax, use code editors, and write simple programs. Gain hands\n  https://www.skills.google/paths/2472/course_templates/1348\n- **Python Tutorial - W3Schools** \u2014 Pythonis a popular programming language.Pythoncan be used on a server to create web applications.Pythonis easy to learn \n  https://www.w3schools.com/python/\n- **Learn Python Free - Complete Beginner Course | OpenPython** \u2014 LearnPythonfrom scratch with 70 free interactive lessons. Write and run realPythoncode in your browser. No setup needed \n  https://openpython.org/courses/learnpython\n- **Python Tutorials - Real Python** \u2014 LearnPythononline:Pythontutorialsfor developers of all skill levels,Pythonbooks and courses,Pythonnews, code examples, a\n  https://realpython.com/"
+    }
+  ],
+  "test-chat-browser": [
+    {
+      "role": "user",
+      "content": "take a screenshot of https://example.com"
+    },
+    {
+      "role": "assistant",
+      "content": "\u26a0\ufe0f Browser tool error: Browser.new_page: 'NoneType' object has no attribute 'send'"
+    },
+    {
+      "role": "user",
+      "content": "take a screenshot of https://example.com"
+    },
+    {
+      "role": "assistant",
+      "content": "\ud83d\udcf8 Screenshot taken of **https://example.com** (base64 PNG returned)."
+    }
+  ],
+  "test-chat-post": [
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! It's nice to meet you. Is there something I can help you with, or would you like to chat?"
+    },
+    {
+      "role": "user",
+      "content": "hello"
+    },
+    {
+      "role": "assistant",
+      "content": "Another hello! It's great to have a friendly conversation. How's your day going so far?"
+    }
+  ]
+}

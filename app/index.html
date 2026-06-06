@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Local AI</title>
+</head>
+
+<body>
+
+<h1>My AI Chat</h1>
+
+<input id="msg" placeholder="Ask something">
+<button onclick="send()">Send</button>
+
+<p id="out"></p>
+
+<script>
+async function send(){
+
+const q =
+document.getElementById("msg").value
+
+const r =
+await fetch(
+`http://127.0.0.1:8000/ask?q=${encodeURIComponent(q)}`
+)
+
+const data =
+await r.json()
+
+document.getElementById("out")
+.innerText =
+data.answer
+
+}
+</script>
+
+</body>
+</html>koi
